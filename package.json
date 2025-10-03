@@ -1,0 +1,26 @@
+{
+  "name": "auth-template",
+  "type": "module",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.4.0",
+    "@elysiajs/jwt": "^1.4.0",
+    "@elysiajs/openapi": "^1.4.11",
+    "@prisma/client": "^6.16.3",
+    "@t3-oss/env-core": "^0.13.8",
+    "elysia": "latest",
+    "redis": "^5.8.3",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/bun": "^1.2.23",
+    "prettier": "^3.6.2",
+    "prisma": "^6.16.3"
+  },
+  "module": "src/index.js"
+}

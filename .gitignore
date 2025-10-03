@@ -1,0 +1,17 @@
+# Dependencies
+/node_modules
+
+# Misc
+.DS_Store
+*.pem
+
+# env
+.env
+
+# Database
+/db
+/src/generated/prisma
+
+# Redis
+/redis
+/redis-insight
